@@ -1,5 +1,10 @@
   //las tildes no las tengo en cuenta
   import java.util.Scanner;
+  /**Clase que leido un día de la semana
+  * nos dice si es laborable o no
+  * @author Manuel
+  * @version 1.0
+  */
   public class TipoDias{
     public static void main(String[] arg){
       System.out.println("Introduce un día de la semana");
