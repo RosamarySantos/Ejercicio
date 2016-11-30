@@ -11,10 +11,10 @@
       Scanner sc = new Scanner(System.in);
       String diaSemana = sc.next(); 
       sc.close();
-      String diaSemanaMinuscula = diaSemana.toLowerCase();
+    //  String diaSemanaMinuscula = diaSemana.toLowerCase();
       //System.out.printf("Día de la semana introducido %s%n", diaSemanaMinuscula);
       String mensaje ="";
-      switch (diaSemanaMinuscula) {
+      switch (diaSemana.toLowerCase()) {
         case "lunes" :
           mensaje = "es laborable";
           break;
@@ -39,6 +39,6 @@
         default :
           mensaje = "no es un día";
       }
-      System.out.printf("%s %s%n", diaSemanaMinuscula, mensaje);
+      System.out.printf("%s %s%n", diaSemana, mensaje);
     }
   }
